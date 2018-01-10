@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-insert-logo-link",
+  "version": "0.0.1",
+  "description": "Inserts a logo wrapped in a link",
+  "main": "index.js",
+  "author": {
+    "email": "lzcabrera@gmail.com",
+    "name": "lzcabrera"
+  },
+  "bugs": {
+    "url": "https://github.com/lzcabrera/gitbook-plugin-insert-logo-link/issues"
+  },
+  "engines": {
+    "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+      "properties": {
+          "myConfigKey": {
+              "type": "string",
+              "default": "it's the default value",
+              "description": "It defines my awesome config!"
+          }
+      }
+  }
+}
