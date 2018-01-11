@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-insert-logo-link",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Gitbook plugin to inserts a logo wrapped in a link",
   "main": "index.js",
   "author": {
