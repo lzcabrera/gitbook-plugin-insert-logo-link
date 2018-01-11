@@ -23,7 +23,7 @@ You will also need to provide src for the logo and the href for the link url. Th
     "pluginsConfig": {
         "insert-logo-link": {
             "src": "/my-logo.png",
-            url: "http://example"
+            "url": "http://example"
         }
     }
 }
