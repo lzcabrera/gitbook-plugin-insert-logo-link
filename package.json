@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-insert-logo-link",
   "version": "0.0.1",
-  "description": "Inserts a logo wrapped in a link",
+  "description": "Gitbook plugin to inserts a logo wrapped in a link",
   "main": "index.js",
   "author": {
     "email": "lzcabrera@gmail.com",
@@ -14,12 +14,33 @@
     "gitbook": ">1.x.x"
   },
   "gitbook": {
-      "properties": {
-          "myConfigKey": {
-              "type": "string",
-              "default": "it's the default value",
-              "description": "It defines my awesome config!"
-          }
+    "properties": {
+      "src": {
+        "default": "http://examples/logo.png",
+        "title": "Image",
+        "type": "string"
+      },
+      "url": {
+        "default": "http://examples",
+        "title": "Logo URL",
+        "type": "string"
       }
+    }
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "insert-logo-link",
+    "github"
+  ],
+  "maintainers": [
+    {
+      "email": "lzcabrera@gmail.com",
+      "name": "lzcabrera"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzcabrera/gitbook-plugin-insert-logo-link.git"
   }
 }
